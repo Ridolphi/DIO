@@ -21,3 +21,14 @@ X = -5
 
 X = 9
 
+
+
+//TODO: Complete os espaços em branco
+let line = gets().split(" ");
+let pimentoes_amarelos = parseInt(line[0]); 
+let pimentoes_vermelhos = parseInt(line [1]); 
+//TODO: Faça a soma do número de pimentões e imprima o resultado
+
+let total = pimentoes_amarelos + pimentoes_vermelhos;
+
+print("X = " + total);
